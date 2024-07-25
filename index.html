@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-UK">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whiskey Drop | Taste a new whiskey every month</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
 </head>
 
 <body>
+    <div class="container-fluid navalert-container">
+    <!-- Nav -->
     <nav class="navbar navbar-light navbar-expand-sm bg-light">
         <a href="/" class="navbar-brand">Whiskey Drop</a>
 
@@ -26,7 +25,7 @@
 
             <ul class="navbar-nav mr-auto">
                 <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                <li class="active nav-item mr-2"><a class="nav-link" href="">About</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="">About</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -43,13 +42,13 @@
                         Up</a>
                 </li>
             </ul>
-            </div>
-            <div class="d-none d-md-block">
-                <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
-                <a href="/login">Sign In / Sign Up</a>
-            </div>
-        <!-- </div> -->
+        </div>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
+            <a href="/login">Sign In / Sign Up</a>
+        </div>
     </nav>
+</div>
     <!-- <div class="container alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
@@ -62,9 +61,9 @@
     </div> -->
     <div class="container-fluid callout-container">
         <!-- Callout -->
-        <div class="opaque-overplay">&nbsp;</div>
+        <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
-            <div class="col-12"></div>
+            <div class="col-12">
             <section class="callout jumbotron text-center">
                 <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
                 <hr class="block-divider block-divider--orange">
@@ -72,15 +71,15 @@
                     <s class="d-none d-sm-inline">£19.99</s>
                     <span class="d-inline d-sm-none"><br></span>
                     <strong><mark>First one is free!</mark></strong></p>
-                <p> <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign
+                <p><button class="btn btn-lg btn--lg btn--success" data-toggle="modal" data-target="#signUpModal">Sign
                         Up!</button></p>
                 <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink
-                        responsibly</small></p>
+                        responsibly.</small></p>
             </section>
         </div>
     </div>
+</div>
     <!-- /.callout -->
-    </div>
 
     <!-- Quotes -->
     <div class="container quotes-container">
@@ -94,7 +93,7 @@
                 <div class="col-12 col-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="./assets/images/girl-image.png" class="rounded-circle mr-3" height="100"
+                            <img src="./images/girl-image.png" class="rounded-circle mr-3" height="100"
                                 width="100">
                         </div>
                         <div class="media-body">
@@ -108,7 +107,7 @@
                 <div class="col-12 col-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="./assets/images/guy-image.png" class="rounded-circle mr-3" height="100"
+                            <img src="./images/guy-image.png" class="rounded-circle mr-3" height="100"
                                 width="100">
                         </div>
                         <div class="media-body">
@@ -123,7 +122,7 @@
             </div>
         </section>
         <!-- /.quotes -->
-    </div>>
+    </div>
     <!-- Features -->
     <div class="features-container">
         <section class="features">

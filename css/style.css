@@ -7,7 +7,7 @@ body {
 .callout-container {
     height: 100vh;
 
-    background: url("../assets/images/whiskey-background.jpg") no-repeat bottom right fixed; 
+    background: url('../images/whiskey-background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -26,7 +26,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .features-container {}
@@ -39,6 +39,7 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
 }
 
 .block-divider--orange {
@@ -55,15 +56,17 @@ body {
     background-color: transparent;
 }
 
-.jumbotron-header {
+.jumbotron h1 {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
+    color: white;
 }
 
 .jumbotron .lead {
     margin: 25px 0;
     color: #a7a7a7;
+    margin: 25px 0;
 }
 
 .jumbotron small {
@@ -84,4 +87,13 @@ body {
     color: white;
     background-color: #f05f40;
     border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #f05f40;
+    border-color: #f05f40;
+    color: white;
 }
