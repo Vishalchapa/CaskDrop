@@ -2,6 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Containers */
+
 .alert-container {}
 
 .callout-container {
@@ -26,7 +28,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .features-container {}
@@ -50,6 +52,24 @@ body {
     width: 35px;
 }
 
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
 /* Jumbotron */
 
 .jumbotron {
@@ -64,7 +84,6 @@ body {
 }
 
 .jumbotron .lead {
-    margin: 25px 0;
     color: #a7a7a7;
     margin: 25px 0;
 }
