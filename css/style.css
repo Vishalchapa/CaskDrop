@@ -2,12 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* .alert-container {
-
-} */
+.alert-container {}
 
 .callout-container {
     height: 100vh;
+
     background: url("../assets/images/whiskey-background.jpg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -17,15 +16,38 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
 }
 
-/* .features-container {
-
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
 }
 
-.quotes-container {
+.features-container {}
 
-} */
+.quotes-container {}
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--short {
+    width: 35px;
+}
 
 /* Jumbotron */
 
