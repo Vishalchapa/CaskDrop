@@ -47,7 +47,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .features-container {}
@@ -114,7 +114,7 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 .navbar .navbar-toggler {
@@ -181,7 +181,7 @@ body {
     margin-bottom: 40px;
 }
 
-.feature i{
+.feature i {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
