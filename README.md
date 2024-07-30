@@ -1,4 +1,4 @@
-Whiskey Delivery Website, here is the Deployed Link: https://vishalchapa.github.io/CaskCourier/
+Whiskey Delivery Website, here is the Deployed Link: https://vishalchapa.github.io/CaskDrop/
 
 Welcome to the Whiskey Delivery app, your ultimate solution for getting premium whiskey delivered right to your doorstep! 
 This web application is built using HTML5, CSS3, and Bootstrap 4.1.
